@@ -11,7 +11,7 @@ public class magic8 {
         int wishNumber = (int)(Math.random()*10);
         
         if (wishNumber == 1) {
-            
+            System.out.println("Absolutly Not");
         } else if (wishNumber == 2) {
             System.out.println("Yes");
         } else if (wishNumber == 3) {
@@ -29,7 +29,7 @@ public class magic8 {
         } else if (wishNumber == 9) {
             System.out.println("Most likely");
         } else {
-            System.out.println("My sourcess say no");
+            System.out.println("My sources say no");
         }
         
     }
